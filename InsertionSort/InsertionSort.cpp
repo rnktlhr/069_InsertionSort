@@ -40,12 +40,10 @@ void insertionSort() {
 			j = j - 1; //step 4b
 		}
 		arr[j + 1] = temp; //step 5
-
-        cout << "\npass ke = " << i << ":";
+        cout << "\npass ke - " << i << ":";
         for (int k = 0; k < n; k++) {
-            cout << arr[k] << "";
+            cout << arr[k] << " ";
         }
-        cout << endl;
         
     }
 }
