@@ -41,7 +41,7 @@ void insertionSort() {
 		}
 		arr[j + 1] = temp; //step 5
 
-        cout << "jumlah pass" << n - 1 << ":";
+        cout << "\npass ke = " << i << ":";
         for (int k = 0; k < n; k++) {
             cout << arr[k] << "";
         }
